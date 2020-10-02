@@ -212,7 +212,7 @@ svg:not(:root) {
     overflow: hidden;
 }
 mark {
-    background-color: #fdffb6;
+    background-color: #fdffb7;
 }
 code,
 kbd,
@@ -257,6 +257,7 @@ input::-moz-focus-inner {
 }
 input {
     line-height: normal;
+    border: 0;
 }
 input:focus {
     outline: none;
@@ -460,14 +461,14 @@ h6 {
     margin-top: 0;
     color: var(--color-base);
     line-height: 1.15;
-    font-weight: 700;
+    font-weight: 800;
     text-rendering: optimizeLegibility;
 }
 
 h1 {
     margin: 0 0 0.5em 0;
     font-size: 4rem;
-    font-weight: 700;
+    font-weight: 800;
 }
 @media (max-width: 500px) {
     h1 {
